@@ -54,7 +54,7 @@ The format you need to have to make the following steps work is:
 
 6) *ONLY IF YOU WANT TO CREATE NEW FEATURES*: run ```create_features.py```. Please note this is NOT necessary as in the ```features``` folder there are already the joblib files created with ```create_features.py```.
 
-7) *ONLY IF YOU WANT TO CREATE A NEW MODEL*:  run the python notebook [SER(Deep_Learning).ipynb](). Please note this is NOT necessary as in the ```DeepLearning``` folder there is already a [pre_trained model]() to use.
+7) *ONLY IF YOU WANT TO CREATE A NEW MODEL*:  run the python notebook [SER(Deep_Learning).ipynb](https://github.com/Splinter-AJ/DataScience_Projects/blob/main/Speech%20Emotion%20Detection/SER_MODEL/SER_model.h5). Please note this is NOT necessary as in the ```DeepLearning``` folder there is already a [pre_trained model]() to use.
 
 
 *Important note*: the classes are encoded from 0 to 7 in the code. In the dataset, from 01 to 08. Be aware when you try. If the model predicts 0 and you are using a NEUTRAL file (01), this is correct and the expected behavior. Keras wants the predictions to start from 0 and not from 1, so the code is adjusted to cope with this requirement.
