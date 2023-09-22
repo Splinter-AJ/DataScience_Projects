@@ -11,7 +11,7 @@ Welcome to my Data Science Projects Repository! This repository contains a colle
     - **Description:** The aim of this project is to predict the emotion of the speaker based on their vocal cues and speech patterns.
     - **Technologies Used:** The notebooks uses MLP classifier and Convolutional Neural Network.
     - **Results:** The CNN model performed best with 88% accuracy.
-2. [Hotel Reservations Cancellation Prediction]()
+2. [Hotel Reservations Cancellation Analysis](https://github.com/Splinter-AJ/DataScience_Projects/tree/main/Hotel%20Reservations%20Cancellation%20Analysis)
     - **Description:** The aim of this project to predict the possible reservations that are going to cancelled by the customers by analyzing various features and variables associated with 
                        the reservation.
     - **Technologies Used:** The notebooks uses Decision Tree Classifier, Random Forest Classifier and Logistic Regression.
